@@ -1,0 +1,30 @@
+h1{
+    font-size: 12em;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    text-align: center;
+
+}
+h2{
+    font-size: 7em;
+    color: rgba(253, 8, 8, 0.767);
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: flex-end;
+    text-align: center;
+}
+#color{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: flex-end;
+    background-color: grey;
+}
+#art{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0;
+}
+.tart{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
