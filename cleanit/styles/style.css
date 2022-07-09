@@ -144,6 +144,71 @@ nav a:hover{
     transition: transition .5s;
     box-shadow: 5px 5px 10px black;
 }
+.page_two-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.mirror{
+    width: 100%;
+    grid-column: 1/6;
+    grid-row: 2/5;
+    box-shadow: 5px 5px 10px black;
+}
+.tips_one{
+    background-color: #4f5bb1;
+    color: white;
+    line-height:1.5em;
+    grid-column: 6/11;
+    grid-row: 2/4;
+    padding: 35px;
+    box-shadow: 5px 5px 10px black;
+}
+.surface{
+    width: 100%;
+    grid-column: 6/11;
+    grid-row: 6/9;
+}
+.tips_two{
+    background-color: #6776e6;
+    color: white;
+    line-height:1.5em;
+    grid-column: 2/6;
+    grid-row: 7/9;
+    padding: 35px;
+    box-shadow: 5px 5px 10px black;
+}
+.page_three-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.floor{
+    width: 100%;
+    grid-column: 6/10;
+    grid-row: 2/5;
+}
+.benefit_one{
+    background-color: #4f5bb1;
+    color: white;
+    line-height:1.5em;
+    grid-column: 1/6;
+    grid-row: 2/4;
+    padding: 35px;
+    box-shadow: 5px 5px 10px black;
+}
+.vacuum{
+    width: 100%;
+    grid-column: 2/6;
+    grid-row: 6/9;
+}
+.benefit_two{
+    background-color: #6776e6;
+    color: white;
+    line-height:1.5em;
+    grid-column: 6/11;
+    grid-row: 7/9;
+    padding: 35px;
+    box-shadow: 5px 5px 10px black;
+}
 footer{ 
     background-color: #eceff1;
     color:#242c51;
