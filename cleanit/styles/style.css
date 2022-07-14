@@ -48,7 +48,7 @@ h2{
 
 #posh-msg h1, #posh-msg h4{
     text-align: center;
-    color: white;
+    color: rgba(70, 0, 128, 0.973);
 }
 #posh-img{
     width: 100%;
