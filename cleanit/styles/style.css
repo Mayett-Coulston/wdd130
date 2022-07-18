@@ -53,6 +53,9 @@ h2{
 #posh-img{
     width: 100%;
 }
+.book{
+    box-shadow: 2px 2px 5px #242c51;
+}
 .button-box{
     text-align: center;
 }
@@ -266,4 +269,4 @@ footer .social{
   .dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  .dropdown:hover .dropbtn {background-color: #310080;}
